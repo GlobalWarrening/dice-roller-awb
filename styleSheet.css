@@ -1,6 +1,27 @@
-
+/*
+Alex Burgess
+CSPS-44000
+Stylesheet for dice roller 
+*/
 body { text-align: center; }
 
 h1{ text-align: center; }
 
 input{ text-align: right; }
+
+button.collapsible{
+    background-color:rgb(216, 212, 212);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 18px;
+    width: 10%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+div.content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
